@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet" />
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h2 style="text-align: center;">Sign Up </h2>
+            </div>
+            <form class="form">
+                <div class="form-control">
+                    <i class='bx bxs-user'></i>
+                    <lable for="username" name="username">User Name</lable>
+                    <input id="txtUserName" type="text" name="username" />
+                    <small>Error Message</small>
+                </div>
+                <div class="form-control">
+                    <i class='bx bxs-envelope'></i>
+                    <lable for="email" name="email">Email</lable>
+                    <input id="txtEmail" type="email" name="email" />
+                    <small>Error Message</small>
+                </div>
+                <div class="form-control">
+                    <i class='bx bxs-phone'></i>
+                    <label for="phone" name="phone">Phone Number</label>
+                    <input id="txtPhone" type="tel" name="phone" />
+                    <small>Error Message</small>
+                </div>
+                <div class="form-control">
+                    <i class='bx bxs-lock-alt'></i>
+                    <lable for="pwd" name="pwd">Password</lable>
+                    <input id="txtPwd" type="password" name="pwd" />
+                    <small>Error Message</small>
+                </div>
+                <div class="form-control">
+                    <i class='bx bxs-lock-alt'></i>
+                    <lable for="conpwd" name="conpwd">Confirm Password</lable>
+                    <input id="txtConPwd" type="password" name="conpwd" />
+                    <small>Error Message</small>
+                </div>
+                <div class="form-control">
+                    <button>Register</button>
+                    <p class="switch-form">Already have an account? <a href="signin.html">Sign In</a></p>
+                    <p><a href="index.html">Go Back</a></p>
+                </div>
+            </form>
+        </div>
+        <script src="sign.js"></script>
+    </body>
+</html>

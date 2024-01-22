@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet" />
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h2 style="text-align: center;">Sign In </h2>
+            </div>
+            <form class="form">
+                <div class="form-control">
+                    <i class='bx bxs-envelope'></i>
+                    <label for="email" name="email">Email</label>
+                    <input id="txtEmail" type="email" name="email" />
+                    <small>Error Message</small>
+                </div>
+                <div class="form-control">
+                    <i class='bx bxs-phone'></i>
+                    <label for="pwd" name="pwd">Password</label>
+                    <input id="txtPwd" type="password" name="pwd" />
+                    <small>Error Message</small>
+                </div>
+                <div class="form-control">
+                    <button onclick="validateInput()">Sign In</button>
+                    <p class="switch-form">If Doesn't have an account? <a href="sign up.html">Sign Up</a></p>
+                    <p><a href="index.html">Go Back</a></p>
+                </div>
+            </form>
+        </div>
+        <script src="test.js"></script>
+    </body>
+</html>
